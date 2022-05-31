@@ -25,7 +25,7 @@ For the graphical realization of the UI the library tkinter was used.
 
  # Usage 
 
-<b>To use this program the device must be already connected when the software is executed</b>  
+<b>In order to open the UI at least a serial device must be connected when the software is executed.</b>  
 If more then one serial device is connected, it must be choosed the correct device as follow:  
   
   ![image](https://user-images.githubusercontent.com/70527145/171265232-27fc5021-3b96-44ba-85f3-7ddcd289d479.png)  
