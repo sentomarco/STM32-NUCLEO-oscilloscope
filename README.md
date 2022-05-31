@@ -80,7 +80,7 @@ Any obliged changes can be adjusted after.
 Open File -> new -> STM32 project then select your board.  
 Now it is necessary to select the following settings:  
   
-![image](https://user-images.githubusercontent.com/70527145/171239602-209dd337-ee8f-4ce5-b635-1014da6b2b3a.png)
+![image](https://user-images.githubusercontent.com/70527145/171268778-1b5dcdc5-1869-422c-9c15-0b4a7c6c0052.png)  
   
 <b>Setup the ADC</b>    
   
@@ -133,5 +133,6 @@ Then the project can be buid and run on the board.
 To execute the software simply launch the executable in the main directory, one for Windows and one for Unix.  
   
 <b>Pay attention that the board must be connected in order to open the visual interface.</b>
-
- 
+  
+   
+![image](https://user-images.githubusercontent.com/70527145/171268635-7933c92d-6612-46ef-9542-34de059c75b6.png)
