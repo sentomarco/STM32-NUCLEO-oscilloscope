@@ -1,5 +1,5 @@
 # STM32_NUCLEO_oscilloscope
-<h1>Digital oscilloscope for the STM32 NUCLEO board <\h1>
+<h1>Digital oscilloscope for the STM32 NUCLEO board </h1>
 A public digital oscilloscope downloadable on the NUCLEO board to display analogue signals, from 0V up to 3.3V, between 10Hz – 100kHz.
 It can work out of the box with a STM32F401RE board by flashing on it the contenent of the STM_CUBE_BUILD directory as shown in the following.
 Anyway it is shown how to use it on every board compatible with the STM32CubeIDE.
