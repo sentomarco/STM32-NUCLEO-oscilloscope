@@ -84,7 +84,7 @@ Now it is necessary to select the following settings:
   
 <b>Setup the ADC</b>    
   
-The F401RE board has a multi-channel ADC, in this project 0 channels have been enabled and 15 respectively as channel 1 (Rank 1) and channel 2 (Rank 2) of the DSO to minimize possible cross-talk.    
+The F401RE board has a multi-channel ADC, in this project channels 0 and 15 have been enabled, respectively as channel 1 (Rank 1) and channel 2 (Rank 2), to minimize possible cross-talk.    
 Try to select the same options.    
 
 Scan Conversion has been set as acquisition mode in order to perform a sampling of the two channels belonging to the “Regular group” of an event.  
