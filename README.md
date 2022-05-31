@@ -1,7 +1,7 @@
 # STM32_NUCLEO_oscilloscope
 <h1>Digital oscilloscope for the STM32 NUCLEO board </h1>
 A public digital oscilloscope downloadable on the NUCLEO board to display analogue signals up to two different channels, from 0V up to 3.3V, between 10Hz – 100kHz.    
-
+  
 ![image](https://user-images.githubusercontent.com/70527145/171265138-6017b8e3-859c-4ee2-a4b3-175d239ae375.png)  
 
 It can work out of the box with a STM32F401RE board by flashing on it the contenent of the STM_CUBE_BUILD directory as shown in the following.
@@ -43,13 +43,13 @@ at initialization you have “Default” in the check box, this option is not pr
 It offers the ability to set the sampling frequency, the time between an ADC acquisition and the next one.  
 At initialization, when the trigger type selected is “Default”, this parameter is set to 1kHz or 1ms.  
 
-As from specification, the maximum range are 10Hz - 10kHz.  
+As from specification, the maximum range are 10 Hz - 100 kHz.  
   
   ![image](https://user-images.githubusercontent.com/70527145/171266747-31054d7a-1a31-4df5-910c-a6216c405b03.png)  
   
 <b>Change the trigger level:</b>   
   
-Can be choosen between 0 and 256, corresponding to 0 and 3.3V.  
+Can be choosen between 0 and 256, corresponding to 0V and 3.3V.  
   
 ![image](https://user-images.githubusercontent.com/70527145/171266904-0e0dd5ab-f6ff-4ec9-9b07-ec46bda2c43b.png)  
 
