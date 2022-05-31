@@ -62,35 +62,35 @@ Being the ADC clock PCLK2/4 we get about 0.5 μs
 
 ![image](https://user-images.githubusercontent.com/70527145/171252393-a2460c04-fff1-45df-87c9-21dbe4c8552c.png)
 
-<b>Setup the TIM3</b>
+<b>Setup the TIM3</b>  
 
-Timer 3 channel 1 in output compare no output mode to define the sampling frequency.
-When the value set in the 16-bit Auto Reload Register is reached it is triggered an interrupt corresponding to the Update Event Flag setting.
-This value is dynamically set within the design to sample at the frequency requested by the user.
-The prescaler can also be set for the same reason according to the formula:
+Timer 3 channel 1 in output compare no output mode to define the sampling frequency.  
+When the value set in the 16-bit Auto Reload Register is reached it is triggered an interrupt corresponding to the Update Event Flag setting.  
+This value is dynamically set within the design to sample at the frequency requested by the user.  
+The prescaler can also be set for the same reason according to the formula:  
 
-fsample = 84 ∙ 106 /( (PSC + 1) (ARR + 1) ) 
+fsample = 84 ∙ 106 /( (PSC + 1) (ARR + 1) )   
 
-The Update event is therefore used as a trigger to start channel conversions regular.
+The Update event is therefore used as a trigger to start channel conversions regular.  
 
-<b>Setup the DMA</b>
+<b>Setup the DMA</b>  
 
-The DMA (Direct Memory Access) has been set up in circular mode, so that when the portion of memory dedicated to the acquisition of the samples can be filled again, exploiting a conceptually FIFO type access.
+The DMA (Direct Memory Access) has been set up in circular mode, so that when the portion of memory dedicated to the acquisition of the samples can be filled again, exploiting a conceptually FIFO type access.  
 
-<b>Setup the USART</b>
+<b>Setup the USART</b>  
 
-The USART protocol used by the card has been set to the maximum baud rate, corresponding to 115 200 Bit/s.
-As the reception is asynchronous, an oversampling factor x16 is set.
+The USART protocol used by the card has been set to the maximum baud rate, corresponding to 115 200 Bit/s.  
+As the reception is asynchronous, an oversampling factor x16 is set.  
 
-<b>Different hardware</b>
+<b>Different hardware</b>  
 
-To match different obliged choices in the setup it is necessary to look at the functions in the file main.c named as MX_<component>_INIT and compensate for the mismatch.
+To match different obliged choices in the setup it is necessary to look at the functions in the file main.c named as MX_<component>_INIT and compensate for the mismatch.  
   
-![image](https://user-images.githubusercontent.com/70527145/171252992-23d452b6-916d-484f-a684-4d21f23e2f8b.png)
+![image](https://user-images.githubusercontent.com/70527145/171252992-23d452b6-916d-484f-a684-4d21f23e2f8b.png)  
 
-# Execute the software
+# Execute the software  
 
-To execute the software simply launch the executable in the main directory, working under both Windows and Unix.
+To execute the software simply launch the executable in the main directory, working under both Windows and Unix.  
 
-#Oscilloscope 
+#Oscilloscope   
 
