@@ -4,7 +4,7 @@ A public digital oscilloscope downloadable on the NUCLEO board to display analog
   
 ![image](https://user-images.githubusercontent.com/70527145/171265138-6017b8e3-859c-4ee2-a4b3-175d239ae375.png)  
 
-It can work out of the box with a STM32F401RE board by flashing on it the contenent of the STM_CUBE_BUILD directory as shown in the following.
+It can work out of the box with a STM32F401RE board by flashing on it the content of the STM_CUBE_BUILD directory as shown in the following.
 Anyway it is shown how to use it on every board compatible with the STM32CubeIDE.     
   
 Input channels: 2  
