@@ -15,11 +15,11 @@ Voltage samples are taken from the card which via serial communication transmits
 
 For the graphical realization of the interface the library tkinter was used.
 
-#How to start on STM32F401RE
+# How to start on STM32F401RE
 
 flashare firmware ed eseguire script
 
-#How to start on a different board
+# How to start on a different board
 
 
 
