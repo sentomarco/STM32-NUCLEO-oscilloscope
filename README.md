@@ -30,7 +30,7 @@ If more then one serial device is connected, it must be choosed the correct devi
   
   ![image](https://user-images.githubusercontent.com/70527145/171265232-27fc5021-3b96-44ba-85f3-7ddcd289d479.png)  
 
-<b>It is possible to change the trigger:<\b>  
+<b>It is possible to change the trigger:</b>  
   
   ![image](https://user-images.githubusercontent.com/70527145/171265569-4a06f03d-b304-42dc-801d-76c1abb372f9.png)  
 
