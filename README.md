@@ -1,6 +1,6 @@
 # STM32_NUCLEO_oscilloscope
 <h1>Digital oscilloscope for the STM32 NUCLEO board </h1>
-A public digital oscilloscope downloadable on the NUCLEO board to display analogue signals up to two different channels, from 0V up to 3.3V, between 10Hz – 100kHz.    
+A digital oscilloscope downloadable on the NUCLEO board to display analogue signals up to two different channels, from 0V up to 3.3V, between 10Hz – 100kHz.    
   
 ![immagine](https://user-images.githubusercontent.com/70527145/171680883-ff96659e-50dd-4afb-b3ad-8f824b2a4c92.png)
 
